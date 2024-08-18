@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFD700; /* Yellow background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.header {
+    background-color: #00008B; /* Dark blue background */
+    color: yellow;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.header .logo {
+    width: 50px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.album-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.album-button {
+    background-color: #00008B; /* Dark blue background */
+    color: yellow;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.album-button a {
+    color: #FFD700;
+}
+
+.logout-button {
+    background-color: red;
+    color: yellow;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.logout-button a {
+    color: #FFD700;
+}
+.next-section {
+    margin-top: 20px;
+}
+
+.next-button {
+    background-color: #00008B;
+    color: #FFD700;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.next-button a {
+    color: #FFD700;
+}
+
+.album-button:hover,
+.logout-button:hover,
+.next-button:hover {
+    opacity: 0.8;
+}
