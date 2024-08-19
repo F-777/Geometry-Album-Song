@@ -66,6 +66,11 @@ button {
     font-size: 16px;
 }
 
+button a {
+    text-decoration: none;
+    color: #00008B;
+}
+
 button:hover {
     background-color: #FFD700;
 }
